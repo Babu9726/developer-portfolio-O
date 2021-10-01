@@ -40,9 +40,25 @@ box-shadow: 10px 10px 15px gray;
 width: 50%;
     padding: 20px;
     margin: 5%;
+    border-radius: 10px;
 }
 .Exp{
     background-image: url(4.png);
     background-repeat: no-repeat;
     
 }
+#Exp-one{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;}
+    #Exp-two{
+        border-left: 8px solid;
+        border-image: linear-gradient(tomato, orange);
+        border-image-slice: 1;}
+        #Exp-three{
+            border-left: 8px solid;
+            border-image: linear-gradient(red, rgb(255, 0, 200));
+            border-image-slice: 1;}
+            footer p{
+                text-align: center;
+            }
